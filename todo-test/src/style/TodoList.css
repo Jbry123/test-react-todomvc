@@ -1,0 +1,81 @@
+.todoListMain .header input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #FFF;
+  width: 165px;
+}
+.todoListMain .header button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: #000;
+  color: #FFF;
+  border: 2px dotted white;
+}
+.todoListMain .header button:hover {
+  background-color: #031d50;
+  border: 2px solid #003399;
+  cursor: pointer;
+}
+.todoListMain .theList {
+  list-style: none;
+  padding-left: 0;
+  width: 250px;
+} 
+.todoListMain .theList li {
+  color: #333;
+  background: linear-gradient(#8F9491, rgb(76, 139, 176)); 
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  list-style: none;
+}
+ul.theList {
+  padding: 0;
+}
+
+.checkbox {
+  appearance: none;
+  width: 20px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+}
+
+row {
+  display: inline;
+  align-content: center;
+  justify-content: center;
+}
+
+.li {
+  min-width: 400px;
+}
+
+.BigBro {
+  position: absolute;
+  bottom: 173px;
+  left: 15px;
+  font-size: 280px;
+  width: 400px;
+  height: 100px;
+}
+
+.delete {
+  appearance: hide;
+  background: #BC0045;
+  margin: 5px;
+  border: solid 1px #000;
+  
+}
+.delete:hover {
+  appearance: none;
+}
+
+.animated.infinite.pulse.delay-2s-active {
+  appearance: hidden;
+}
+
+.todoListMain .theList li {
+  color: white;
+  text-shadow: 2px 1px #000;
+}

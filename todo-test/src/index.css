@@ -1,0 +1,10 @@
+body {
+  padding: 50px;
+  background-color: rgb(0, 111, 167);
+  font-family: sans-serif;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
